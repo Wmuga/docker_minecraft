@@ -1,7 +1,7 @@
 # DockerMinecraft
 
 ## Problem
-1.7.10 minecraft version brakes my second monitor and forces to reset display settings.
+Minecraft 1.7.10 version brakes my second monitor and forces to reset display settings.
 
 ## Solution
 Dockerfile for building container with atlauncher.

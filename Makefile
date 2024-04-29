@@ -1,5 +1,5 @@
 run:
-	x11docker -g -p -I \
+	x11docker --gpu -p -I -d --xorg\
 		--share /home/alex/.local/share/atlauncher \
 		--backend=docker \
 		 wmuga/atlauncher:latest

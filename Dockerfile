@@ -101,4 +101,4 @@ RUN cd /src && dpkg --install atlauncher.deb
 # browser
 RUN apt-get install -y firefox
 
-ENTRYPOINT ["atlauncher"]
+ENTRYPOINT ["start"]
