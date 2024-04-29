@@ -1,6 +1,9 @@
 run:
-	x11docker --gpu -p -I -d --xorg\
+	x11docker --gpu -I -d \
+		--alsa --env ALSA_CARD=Generic_1 \
+		--xorg \
 		--share /home/alex/.local/share/atlauncher \
+		--home \
 		--backend=docker \
 		 wmuga/atlauncher:latest
 build:

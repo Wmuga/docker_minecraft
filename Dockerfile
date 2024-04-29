@@ -99,6 +99,6 @@ chmod +x /usr/local/bin/start
 RUN cd /src && dpkg --install atlauncher.deb 
 
 # browser
-RUN apt-get install -y firefox
+RUN apt-get install -y libxext-dev libxrender-dev libxtst-dev libpci-dev firefox
 
 ENTRYPOINT ["start"]
